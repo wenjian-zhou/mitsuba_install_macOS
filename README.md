@@ -85,7 +85,9 @@ to
 Remember that you should make the change in both CCFLAGS and LINKFLAGS.
 
 7. Go to /mitsuba/dependencies folder, open the file named 'version', delete everything in it (which is a string '0.6.0').
-8. Create a file 'version.txt' and type 0.6.0 in the txt (also in the dependencies folder).
+
+8. Create a file 'version.txt' and input '0.6.0'(also in the dependencies folder).
+
 9. Go to /mitsuba/build folder, open SConscript.configure, in line 283, change
 
 ```
